@@ -8,7 +8,9 @@
     <RepositoryUrl>https://github.com/waxtell/Serilog.Aggregating.Filter.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Serilog filter aggregation aggregate</PackageTags>
-    <PackageReleaseNotes>1.0.0- Initial release</PackageReleaseNotes>
+    <PackageReleaseNotes>1.1.0- Switched to AbsoluteExpiration
+1.0.0- Initial release</PackageReleaseNotes>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
