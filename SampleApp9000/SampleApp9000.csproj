@@ -2,10 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <AssemblyName>Sample</AssemblyName>
+    <AssemblyName>SampleApp9000</AssemblyName>
     <OutputType>Exe</OutputType>
-    <PackageId>Sample</PackageId>
-    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <PackageId>SampleApp9000</PackageId>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>

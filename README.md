@@ -1,4 +1,4 @@
-# Serilog.Aggregating.Filter
+# Serilog.Aggregating.Filter [![Build status](https://ci.appveyor.com/api/projects/status/97rf4lmxevh06cnc?svg=true)](https://ci.appveyor.com/project/waxtell/serilog-aggregating-filter)
 Aggregation-based event filtering for [Serilog](https://serilog.net).
 
 ```csharp
