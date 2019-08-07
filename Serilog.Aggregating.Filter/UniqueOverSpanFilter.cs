@@ -50,7 +50,7 @@ namespace Serilog.Aggregating.Filter
                         key, // We're not really caching anything
                         new CacheItemPolicy
                         {
-                            SlidingExpiration = _span
+                            AbsoluteExpiration = new DateTimeOffset(DateTime.UtcNow.Add(_span))
                         }
                     );
             }
