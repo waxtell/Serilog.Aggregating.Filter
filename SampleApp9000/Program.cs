@@ -8,12 +8,14 @@ namespace SampleApp9000
     {
         public static void Main(string[] args)
         {
+            const string expr = "@Level = 'Information' and AppId is not null and Items[?] like 'C%'";
+
             Log.Logger = new LoggerConfiguration()
                             .Enrich.WithProperty("AppId", 10)
                             .Filter
                             .UniqueOverSpan
                             (
-                                @event => @event.Level == LogEventLevel.Information && @event.MessageTemplate.Text.StartsWith("Cart contains"),
+                                expr,
                                 TimeSpan.FromSeconds(25)
                             )
                             .WriteTo.Console()
