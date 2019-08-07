@@ -11,7 +11,9 @@ namespace Serilog
     {
         public static LoggerConfiguration UniqueOverSpan(this LoggerFilterConfiguration configuration, Func<LogEvent, bool> inclusionPredicate, TimeSpan span)
         {
-            return configuration.With(new UniqueOverSpanFilter(inclusionPredicate, span));
+            return 
+                configuration
+                    .With(new UniqueOverSpanFilter(inclusionPredicate, span));
         }
     }
 }

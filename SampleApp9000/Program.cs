@@ -16,7 +16,7 @@ namespace SampleApp9000
                                 @event => @event.Level == LogEventLevel.Information && @event.MessageTemplate.Text.StartsWith("Cart contains"),
                                 TimeSpan.FromSeconds(25)
                             )
-                            .WriteTo.LiterateConsole()
+                            .WriteTo.Console()
                             .CreateLogger();
 
             Log.Information("Cart contains {@Items}", new[] { "Tea", "Coffee" });
