@@ -1,6 +1,5 @@
 ﻿using System;
 using Serilog;
-using Serilog.Events;
 
 namespace SampleApp9000
 {
